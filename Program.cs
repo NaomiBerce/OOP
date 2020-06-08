@@ -4,18 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_rational
+namespace OOP_complexe
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Rational r1 = new Rational();
-            Rational r2 = new Rational(2);
-            Rational r3 = new Rational(1 , 2);
-            Console.WriteLine(r2);
+            Complex c1 = new Complex();
+            Complex c2 = new Complex(2);
+            Complex c3 = new Complex(2,1);
 
-            r3=r3.SimplifyFraction();
+            Console.WriteLine(c3);
 
             Console.ReadKey();
         }
